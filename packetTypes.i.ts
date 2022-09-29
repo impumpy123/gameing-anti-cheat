@@ -1,9 +1,9 @@
 // Define Type Aliases For Easy YML Translation And Easy Fixes In Future
 // These may be incorrect
-export type ByteArray = string
-export type SignedByteArray = string
+export type ByteArray = Buffer
+export type SignedByteArray = Buffer
 export type LittleString = string
-export type ShortArray = string
+export type ShortArray = Buffer
 export type varint = number
 export type varint32 = number
 export type varint64 = bigint
